@@ -1,0 +1,244 @@
+/* .App {
+  text-align: center;
+} */
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: whitesmoke;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+AppBar {
+  background-color: white;
+}
+.grid {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 3vh;
+}
+.upload {
+  margin-left: 5vw;
+}
+.imgdiv {
+  display: flex;
+  justify-content: center;
+  height: 50vh;
+  align-items: center;
+  border: 1px dashed black;
+  border-radius: 15px;
+}
+.imgdiv2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 80vh;
+  align-items: center;
+  border: 1px dashed black;
+  border-radius: 15px;
+}
+.imgdiv3 {
+  display: flex;
+  justify-content: center;
+  height: 50vh;
+  align-items: center;
+  border: 1px dashed black;
+  border-radius: 15px;
+}
+.secflex {
+  display: flex;
+
+  width: 250px;
+  justify-content: space-between;
+}
+.sec1,
+.sec2 {
+  border-radius: 15px;
+  height: 80px;
+  width: 100px;
+  border: 1px solid black;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sec2 {
+  border: 1px solid blue;
+}
+/* .spanbox1 {
+  border: 1px solid black;
+  height: 20vh;
+  width: 10vw;
+  border-radius: 15px;
+}
+.spanbox2 {
+  border: 1px solid black;
+  height: 20vh;
+  width: 10vw;
+  border-radius: 15px;
+} */
+
+.twoboxes {
+  margin-left: 5vw;
+}
+form {
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+.popbox {
+  display: flex;
+}
+.profilepic {
+  height: 80px;
+  width: 80px;
+  border: 1px solid black;
+  border-radius: 50%;
+  margin-left: 8px;
+  margin-top: 2%;
+}
+.makinline {
+  width: 150px;
+  margin-left: 10vw;
+  color: #c4c4c4;
+}
+.foot {
+  display: flex;
+  background-color: rgb(48, 170, 221);
+  justify-content: space-between;
+}
+.leftfoot {
+  width: 50vw;
+}
+.rightfoot {
+  width: 40vw;
+  padding: 5px;
+}
+.createitem {
+  border-radius: 15px;
+  color: white;
+  background-color: blue;
+  font-weight: 700;
+}
+
+.unordered {
+  display: flex;
+}
+ul {
+  list-style-type: none;
+}
+ul > li {
+  padding: 8px;
+}
+.uil-search {
+  position: relative;
+  left: 15%;
+  top: 7%;
+  color: black;
+}
+.inputappbar {
+  border-radius: 15px;
+  height: 5vh;
+  text-align: center;
+}
+.startdate {
+  padding: 5px;
+}
+.startdate > span {
+  padding-right: 20vw;
+}
+.listing > .text1 {
+  width: 23vw;
+  padding-right: 10vw;
+}
+/* .texttag{
+  padding-top: 10vh;
+} */
+.digital {
+  width: 50vw;
+}
+.buttonhide {
+  margin-left: 10vw;
+  padding: 1vh;
+  border-radius: 25px;
+}
+.properties > .proper1 {
+  padding-right: 5vw;
+}
+.createbtn > span {
+  padding-left: 10vw;
+}
+.collectionbtn {
+  display: flex;
+
+  width: 250px;
+  justify-content: space-between;
+}
+.collectionbtn > .colbtn1 {
+  border-radius: 15px;
+  background-color: white;
+  color: black;
+}
+.col {
+  border-radius: 15px;
+  background-color: white;
+  color: black;
+}
+.choosefile {
+  width: 50%;
+  margin-left: 25%;
+  background-color: #0e8aca;
+  color: white;
+  font-weight: 600;
+}
+.createcollectionbtn {
+  margin-right: 10%;
+  border: 1px solid blue;
+  border-radius: 20px;
+  background-color: #0e8aca;
+  color: white;
+  font-weight: 600;
+}
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.apbar {
+  display: flex;
+}
+.token{
+  background-color: white;
+  color: blue;
+  border: 1px solid blue;
+  border-radius: 15px;
+}
+.head{
+  background-color: white;
+  color: black;
+}
